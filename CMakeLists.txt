@@ -7,5 +7,5 @@ include(res/config.cmake)
 find_package(SDL2_ttf CONFIG REQUIRED)
 find_package(SDL2 CONFIG REQUIRED)
 #@add_subproject Warning: Do not remove this line
-add_subdirectory(main)
 add_subdirectory(crossui)
+add_subdirectory(main)

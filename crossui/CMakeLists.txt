@@ -1,4 +1,4 @@
-add_library(crossui src/App.cc src/Button.cc)# Add your Source Files here
+add_library(crossui src/App.cc src/Button.cc src/Rectangle.cc src/Group.cc)# Add your Source Files here
 target_link_libraries(crossui
         PRIVATE
         $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>

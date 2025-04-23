@@ -1,7 +1,7 @@
 
 #Auto Generated Root CMake file by aura CLI
 #None
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 option(STATIC_LINK "Enable static linking" ON)
